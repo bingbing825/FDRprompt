@@ -1,0 +1,8 @@
+DATASET:
+  NAME: "ImageNet"
+OPTIM:
+  LR: 2.0
+TRAINER:
+  FDRprompt:
+    LA: 0.001
+    LB: 0.01

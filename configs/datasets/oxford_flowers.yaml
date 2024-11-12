@@ -1,0 +1,8 @@
+DATASET:
+  NAME: "OxfordFlowers"
+OPTIM:
+  LR: 0.002
+TRAINER:
+  FDRprompt:
+    LA: 0.1
+    LB: 1.0

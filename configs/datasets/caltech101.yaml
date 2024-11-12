@@ -1,0 +1,8 @@
+DATASET:
+  NAME: "Caltech101"
+OPTIM:
+  LR: 0.2
+TRAINER:
+  FDRprompt:
+    LA: 0.1
+    LB: 0.1

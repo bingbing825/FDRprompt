@@ -1,0 +1,8 @@
+DATASET:
+  NAME: "EuroSAT"
+OPTIM:
+  LR: 20.0
+TRAINER:
+  FDRprompt:
+    LA: 0.1
+    LB: 1.0

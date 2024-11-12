@@ -1,0 +1,8 @@
+DATASET:
+  NAME: "DescribableTextures"
+OPTIM:
+  LR: 2.0
+TRAINER:
+  FDRprompt:
+    LA: 0.4
+    LB: 1.0

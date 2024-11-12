@@ -1,0 +1,8 @@
+DATASET:
+  NAME: "SUN397"
+OPTIM:
+  LR: 20.0
+TRAINER:
+  FDRprompt:
+    LA: 0.01
+    LB: 0.01

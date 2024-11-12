@@ -1,0 +1,8 @@
+DATASET:
+  NAME: "FGVCAircraft"
+OPTIM:
+  LR: 0.2
+TRAINER:
+  FDRprompt:
+    LA: 0.1
+    LB: 1.0
