@@ -85,15 +85,13 @@ def extend_cfg(cfg):
     """
     from yacs.config import CfgNode as CN
 
-    cfg.TRAINER.DAPT = CN()
-    cfg.TRAINER.DAPT.VIS_NUM_TOKENS = 16
-    cfg.TRAINER.DAPT.VIS_DROPOUT = 0.0
-    cfg.TRAINER.DAPT.VIS_BETA = 0.1
-    cfg.TRAINER.DAPT.TXT_NUM_TOKENS = 16 
-    cfg.TRAINER.DAPT.TXT_RBF_T = 2.0
-    cfg.TRAINER.DAPT.TXT_BETA = 0.1
-    cfg.TRAINER.DAPT.LA = 0.1
-    cfg.TRAINER.DAPT.LB = 1.0
+    cfg.TRAINER.FDRprompt = CN()
+    cfg.TRAINER.FDRprompt.VIS_NUM_TOKENS = 16
+    cfg.TRAINER.FDRprompt.VIS_DROPOUT = 0.0
+    cfg.TRAINER.FDRprompt.TXT_NUM_TOKENS = 16
+    cfg.TRAINER.FDRprompt.TXT_RBF_T = 2.0
+    cfg.TRAINER.FDRprompt.LA = 0.1
+    cfg.TRAINER.FDRprompt.LB = 1.0
 
     cfg.DATASET.SUBSAMPLE_CLASSES = "all"  # all, base or new
     cfg.TRAINER.DAPT.PROTOTYPE_GEN = False
